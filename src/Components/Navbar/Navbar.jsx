@@ -15,15 +15,15 @@ const Navbar = () => {
             <p>ShopNow</p>
         </div>
         <ul className="nav-menu">
-            <li onClick={() => {setMenu("home")}}><Link>Home</Link>{menu==="home" ? <hr />:<> </>}</li>
-            <li onClick={() => {setMenu("men")}}>Men{menu==="men" ? <hr />:<> </>}</li>
-            <li onClick={() => {setMenu("women")}}>Women{menu==="women" ? <hr />:<> </>}</li>
-            <li onClick={() => {setMenu("kids")}}>Kids{menu==="kids" ? <hr />:<> </>}</li>
+            <li onClick={() => {setMenu("home")}}><Link style={{textDecoration:"none",  color: "#333"}} to="/">Home</Link>{menu==="home" ? <hr />:<> </>}</li>
+            <li onClick={() => {setMenu("men")}}><Link style={{textDecoration:"none",  color: "#333"}}  to="/men">Men</Link>{menu==="men" ? <hr />:<> </>}</li>
+            <li onClick={() => {setMenu("women")}}><Link style={{textDecoration:"none",  color: "#333"}} to="/women">Women</Link>{menu==="women" ? <hr />:<> </>}</li>
+            <li onClick={() => {setMenu("kids")}}><Link style={{textDecoration:"none",  color: "#333"}} to="/kids">Kids</Link> {menu==="kids" ? <hr />:<> </>}</li>
             <br />
         </ul>
         <div className="nav-login-cart">
-            <button>Login</button>
-            <img src={cart_logo} alt="" height="40px"/>
+            <Link to="/login"><button>Login</button></Link>
+            <Link to="/Cart"><img src={cart_logo} alt="" height="40px"/></Link>
             <div className="nav-cart-count">0</div>
         </div>
     </div>
