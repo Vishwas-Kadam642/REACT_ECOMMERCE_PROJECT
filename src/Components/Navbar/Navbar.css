@@ -8,7 +8,7 @@
 .nav-logo{
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 10px;
 }
 .nav-logo p{
     color: #ff5722;
@@ -19,7 +19,7 @@
     display: flex;
     align-items: center;
     list-style: none;
-    gap: 50px;
+    gap: 20px;
     color: #333;
     font-size: 25px;
     font-weight: 500;
