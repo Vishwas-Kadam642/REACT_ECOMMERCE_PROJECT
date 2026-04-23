@@ -1,5 +1,4 @@
-import React from "react";
-import { useState } from "react";
+import React, {useState} from "react";
 import "./Navbar.css";
 import logo from "../../assets/logo.png";
 import cart_logo from "../../assets/cart_logo.png";

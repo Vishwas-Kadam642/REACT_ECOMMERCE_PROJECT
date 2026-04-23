@@ -18,11 +18,11 @@ const Hero = () => {
         <p>for everyone</p>
         <div className="hero-letest-btn">
             <div>Latest Collection</div>
-            <img src={arrow_icon} alt="" height="30px"/>
+            <img src={arrow_icon} alt="" height="40px"/>
         </div>
         </div>
         <div className="hero-right">
-  <img src={men} alt="" height="400px"/>
+            <img src={men} alt="" height="400px"/>
         </div>
     </div>
   );

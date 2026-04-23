@@ -1,14 +1,16 @@
 .hero{
     height: 100vh;
-    background: linear-gradient(180deg,#b0e0cb,#e1ffea22 60%);
+    background:linear-gradient(180deg,#47fdae,#e1ffea22 60%);
     display: flex;
 }
 .hero-left{
-    flex: 1;
+    flex:1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 80px;
+
+    padding-left:80px ;
+    
 }
 .hero-left h2{
     color: #090909;
@@ -25,7 +27,7 @@
     align-items: center;
     gap: 20px;
 }
-.hero-letest-btn{
+.hero-latest-btn{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -34,7 +36,7 @@
     height: 50px;
     border-radius: 75px;
     margin-top: 30px;
-    background: #ff5722;
+    background: #ff4141;
     color: white;
     font-size: 18px;
     font-weight: 500;
@@ -42,6 +44,6 @@
 .hero-right{
     flex: 1;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
 }
