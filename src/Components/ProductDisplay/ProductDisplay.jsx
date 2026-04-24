@@ -62,4 +62,4 @@ ${product.old_price}
   )
 }
 
-export default ProductDisplay
+export default ProductDisplay;
